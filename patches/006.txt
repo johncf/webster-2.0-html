@@ -1,0 +1,8 @@
+fixes for:
+  abb wool (in Abb)
+  Am.mo.ni.ac (bad "or")
+  nimus furandi (in An.i.mus)
+  Common (link in Ap.pur.te.nant)
+  Ep.i.coele (was Ep.i.c/.d2le)
+  Tra.cery (was Tra.cer/y)
+  Bar.bi.zon "school"
