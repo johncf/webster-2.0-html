@@ -1,11 +1,61 @@
-body { margin: 0 2%; }
-p {font-size:small; font-family:serif; color:#000000}
-li {text-align:left}
-b {font-weight:bold; color:blue}
-i {font-style:italic; color:#228B22}
-small {font-style:italic; font-size:small; font-family:serif; color:blue}
-strong {font-weight:bold}
-blockquote {font-family:monospace; font-size:small}
-p.breakhere {page-break-before: always; text-align:center}
-ul {list-style-type: none; font-family:monospace; font-size:small}
-h2 {text-align: center}
+body {
+  margin: 0 2%;
+  font-size: small;
+}
+
+p {
+  font-family: serif;
+  color: #000000;
+}
+
+div > * {
+  margin-left: 20px;
+}
+
+div > p:first-child {
+  text-indent: -20px;
+}
+
+li {
+  text-align: left;
+}
+
+b {
+  font-weight: bold;
+  color: blue;
+}
+
+i {
+  font-style: italic;
+  color: #228B22;
+}
+
+small {
+  font-style: italic;
+  /*font-size: small;*/
+  font-family: serif;
+  color: blue;
+}
+
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 20px;
+}
+
+p.breakhere {
+  page-break-before: always;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-family:monospace;
+}
+
+h2 {
+  text-align: center;
+}
